@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: black;
+    background-color: grey;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navprincipal {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+
+}
+
+.Logoprinc {
+    padding-top: 20px;
+    width: 70px;
+}
+
+.navprincipal a:hover {
+    text-decoration: underline;
+}
+
+.navprincipal ul {
+    display: flex;
+}
+
+.navprincipal ul li {
+    padding: 10px;
+
+}
+
+.navprincipal ul.menu {
+    flex: 1;
+    margin-left: 180px;
+}
+
+/*CONTENIDO PRINCIPAL*/
+
+.contenidoprinc {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    width: 100%;
+    height: 600px;
+    background: url('./IMAGENES/pexels-photo-1072179.jpeg');
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.leermas {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid;
+    margin: 10px 0;
+    
+}
+
+.leermas:hover {
+    opacity: .9;
+}
+
+.contenidoprinc h1,
+.contenidoprinc p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* COLUMNA DE INFORMACION */
+
+.columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 10px 0;
+
+}
+.columnas img {
+    height: 270px;
+    width: 100%;
+}
+.columnas h2 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+.columnas a {
+    padding: 10px 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.columnas a:hover {
+    text-decoration: underline;
+
+}
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    height: 350px;
+    background: url('./IMAGENES/banner.jpg');
+    margin-bottom: 40px;
+
+}
+
+.banner .contenidobanner {
+    color: white;
+    font-size: 18px;
+    padding: 90px 0 0 30px;
+    text-align: center;
+    
+}
+
+.banner h3,
+.banner p {
+    margin: 10px 0 10px 0 ;
+}
+
+.banner .contenidobanner a{
+    color: white;
+
+}
+
+.banner .contenidobanner a:hover {
+    text-decoration: underline;
+}
+
+
+/*REDES SOCIALES*/
+
+.sociales {
+    margin: 50px;
+
+}
+.sociales p {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-style: unset;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes a {
+    margin: 0 30px;
+
+}
+
+.redes a i {
+    font-size: 3em;
+}
+
